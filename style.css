@@ -10,7 +10,7 @@ a{
 nav{
     display: flex;
     align-items: center;
-    background: #d0112b;;
+    background: #d0112b;
     height: 11vh;
     width: 100%;
     align-items: center;
@@ -33,22 +33,33 @@ nav{
 #question h3 {
     text-align: center;
     font-size: 40px;
+    color: #f6a704;;
   }
-
+/* .cont{
+    background-image: url(/java/Java-Food.jpeg); 
+    background-size: contain; 
+background-position: center;
+background-repeat: no-repeat; 
+} */
 .container{
 width: 100%; 
-min-height: 985px; 
-background-image: url(/img/paint8.png); 
+/* min-height: 985px;  */
+/* background-image: url(/java/Java-Food.jpeg);  */
 background-size: contain; 
 background-position: center;
 background-repeat: no-repeat; 
 position: relative;
-margin-top: 50px;
+margin-top: 20px;
 text-align: center;
+display: flex;
+
 }
 
+#chart{
+    margin-left: 33%;
+}
 .reset-btn {
-    background: #1d1377;
+    background: #d0112b;
     height: fit-content;
     width: fit-content;
     white-space: nowrap;
@@ -59,6 +70,10 @@ text-align: center;
     /* inset: 0; */
     /* margin: 50% auto; */
     right: 0;
-    margin: 0px 45px 0 0;
+    margin: 0px 45px 0px 0;
     font-size: 30px;
+  }
+
+  .reset-btn:hover{
+    background: #00b172;
   }
