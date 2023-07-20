@@ -77,3 +77,7 @@ display: flex;
   .reset-btn:hover{
     background: #00b172;
   }
+
+  #wheelForm{
+    width: 10vw;
+  }
